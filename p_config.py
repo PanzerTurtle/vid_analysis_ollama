@@ -1,3 +1,4 @@
+
 import os
 
 INPUT_VIDEO = "./vid_samples/night_front_door.mp4"
@@ -102,4 +103,5 @@ if __name__ == "__main__":
   with open('main.py', 'r') as f:
     code = f.read()
     exec(code)
+
     

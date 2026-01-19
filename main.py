@@ -64,4 +64,3 @@ if __name__ == "__main__":
     print(f"Frames analyzed: {len(events)}")
     print(f"Errors: {errors}")
     print(f"Total time: {elapsed:.2f}s ({elapsed/60:.1f} min)") # timed entire script
-    
