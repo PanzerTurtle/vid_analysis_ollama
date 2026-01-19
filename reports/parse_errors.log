@@ -35,3 +35,9 @@ Time: 2026-01-15 13:59:03
   "description": "The image is a nighttime security camera footage of an outdoor porch area. There are no people or suspicious activity visible in the frame."
 } 
 
+============================================================
+Frame: frame_1.jpg
+Time: 2026-01-19 12:40:52
+------------------------------------------------------------
+model requires more system memory (4.0 GiB) than is available (3.6 GiB) (status code: 500)
+

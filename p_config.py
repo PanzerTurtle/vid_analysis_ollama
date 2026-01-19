@@ -18,7 +18,7 @@ PARSE_ERROR_LOG = "./reports/parse_errors.log"
 SYSTEM_CONTEXT = """
 You are an AI security analysis engine designed for CCTV and surveillance review.
 
-Your primary goals are accuracy, consistency, and low false-negative/false-postive rates.
+Your primary goals are accuracy, consistency, and low false-negative rates.
 You must be conservative in judgment and avoid speculation or intent inference.
 
 Global rules:
@@ -63,7 +63,7 @@ Analyse the footage step-by-step:
 
 List of event_type and fixed risk_level:
 "none": "low",
-"human_presence": "medium",
+"human_presence": "low",
 "person_in_distress": "medium",
 "fallen_person": "medium",
 "forced_entry": "high",
