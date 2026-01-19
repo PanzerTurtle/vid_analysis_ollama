@@ -3,7 +3,15 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a front porch at night. There is no clear visual evidence of any security-relevant event taking place.",
+    "description": "The image shows a dark front porch at night. There is no clear indication of any security-relevant event or human presence in the scene.",
+    "frame_file": "frame_1.jpg",
+    "timestamp": "00:00"
+  },
+  {
+    "event_detected": false,
+    "event_type": "none",
+    "risk_level": "low",
+    "description": "The image shows a dark front porch at night. There is no clear indication of any security-relevant event.",
     "frame_file": "frame_2.jpg",
     "timestamp": "00:03"
   },
@@ -11,23 +19,23 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image is a low-quality nighttime security camera photo showing an outdoor porch area. There are no people or objects of interest visible in the frame.",
+    "description": "The image shows a front porch at night with low light conditions. There is no clear indication of any security-relevant event or human presence in the footage.",
     "frame_file": "frame_3.jpg",
     "timestamp": "00:06"
-  },
-  {
-    "event_detected": false,
-    "event_type": "none",
-    "risk_level": "low",
-    "description": "The image shows a front porch at night. There is no clear indication of any security-relevant event occurring in the footage.",
-    "frame_file": "frame_4.jpg",
-    "timestamp": "00:09"
   },
   {
     "event_detected": true,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a person standing on the porch of a house at night. The individual appears to be looking upwards towards something or someone out of frame. There are no clear indications of any security-relevant events such as human presence, forced entry, door tampering, weapon visibility, fire, smoke, or distress.",
+    "description": "The footage shows a person standing on the porch of a house at night. The individual appears to be looking into the window or door of the residence. There is no clear indication of any security-relevant event, such as forced entry, weapon visibility, fire or smoke, or distress. Based on the available information and the image quality, it's not possible to determine if there is a person in distress or fallen individual.",
+    "frame_file": "frame_4.jpg",
+    "timestamp": "00:09"
+  },
+  {
+    "event_detected": true,
+    "event_type": "human_presence",
+    "risk_level": "low",
+    "description": "A person is standing in the front porch area. The image quality and angle make it difficult to discern any specific actions or intentions.",
     "frame_file": "frame_5.jpg",
     "timestamp": "00:12"
   },
@@ -35,7 +43,7 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a nighttime view of an outdoor area with a porch. There are no people or suspicious activity visible in the footage.",
+    "description": "The image shows a residential front porch at night. The area is dark and the camera footage appears to be low quality. There are no clear indications of any security-relevant events, such as human presence or forced entry.",
     "frame_file": "frame_6.jpg",
     "timestamp": "00:15"
   },
@@ -43,7 +51,7 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a front porch at night. There is no clear indication of any security-relevant event.",
+    "description": "The footage is of low quality and does not show any clear security-relevant events. The image appears to be a standard residential scene with no unusual activity.",
     "frame_file": "frame_7.jpg",
     "timestamp": "00:18"
   },
@@ -51,7 +59,7 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image is a low-quality nighttime security camera footage of an empty porch. There are no people or suspicious activities visible in the scene.",
+    "description": "The image shows a dark front porch area at night. There is no clear indication of any security-relevant event or human presence in the scene.",
     "frame_file": "frame_8.jpg",
     "timestamp": "00:27"
   },
@@ -59,7 +67,7 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a nighttime view of the front porch area. The camera angle is slightly off-center and captures part of the house's exterior. There are no clear signs of any security-relevant events such as human presence, person in distress, fallen individual, forced entry, door tampering, weapon visibility, or fire/smoke visible.",
+    "description": "The image shows a nighttime scene of an outdoor area. There is no clear indication of any security-relevant event taking place.",
     "frame_file": "frame_9.jpg",
     "timestamp": "00:33"
   },
@@ -67,7 +75,7 @@
     "event_detected": false,
     "event_type": "none",
     "risk_level": "low",
-    "description": "The image shows a nighttime view of an outdoor porch area. The footage is low quality and partially obstructed. There are no clear signs of security-relevant events such as human presence, person in distress, fallen person, forced entry, door tampering or weapon visible.",
+    "description": "The footage shows a dark front porch with a person sitting on the bench. The image is low quality and partially obstructed.",
     "frame_file": "frame_10.jpg",
     "timestamp": "00:36"
   }
